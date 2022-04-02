@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #f4a261, #f1c0e8); }
+
+h1 {
+  font-size: 40px; }
+
+h4 {
+  font-size: 35px;
+  color: white;
+  padding-left: 1em; }
+
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
+footer {
+  color: white;
+  background-color: #6C757D;
+  height: 16vh;
+  font-size: 14px; }
+
+.navbar-collapse {
+  justify-content: center; }
+
+.logo {
+  padding-left: 14em; }
+
+.pie-página {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+  text-decoration: none;
+  align-items: center; }
+
+@media screen and (max-width: 576px) {
+  footer {
+    font-size: 10px; } }
+
+.texto {
+  padding: 2em;
+  padding-left: 15em;
+  padding-right: 13em; }
+
+.títulos {
+  padding: 1rem; }
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.embed-responsive-item {
+  padding-bottom: 6em; }
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 25px; }
+  h4 {
+    font-size: 20px; }
+  .texto {
+    font-size: 10px; } }

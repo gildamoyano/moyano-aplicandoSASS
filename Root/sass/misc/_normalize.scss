@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to left,#f4a261,#f1c0e8);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 35px;
+    color: white;
+    padding-left: 1em;
+}
+
+a {
+	&:link {
+		text-decoration: none;
+	}
+	&:visited {
+		text-decoration: none;
+	}
+	&:active {
+		text-decoration: none;
+	}
+}
+
+footer {
+    color: white;
+    background-color: #6C757D;
+    height: 16vh;
+    font-size: 14px;
+} 
+
