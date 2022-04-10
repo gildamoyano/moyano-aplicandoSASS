@@ -1,0 +1,36 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .tabla {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6em;
+    }
+    
+    .titulo1 {
+        font-size: 25px;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .titulo2 {
+        font-size: 20px;
+        padding: 1em;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width:576px) {
+
+    h4 {
+        font-size: 16px;
+    }
+
+    table {
+        width: 25%;
+        font-size: 10px;
+    }
+}

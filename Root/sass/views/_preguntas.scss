@@ -1,0 +1,32 @@
+.tituloPreguntas {
+    text-align: center;
+    padding: 2em;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.accordion {
+    padding: 2em;
+    max-width: 70%;
+    align-items: center;
+    margin-left: 10em;
+    margin-bottom: 12em;
+}
+
+.accordion-item {
+    background-color: #6C757D
+}
+
+@media screen and (max-width: 576px) {
+    .accordion  {
+        margin-left: 4em;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .accordion-collapse {
+        font-size: 10px;
+    }
+}

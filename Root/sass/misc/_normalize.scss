@@ -1,3 +1,4 @@
+/* Reset */
 *,
 *::before,
 *::after {
@@ -11,17 +12,27 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(to left,#f4a261,#f1c0e8);
 }
-
+  
 h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h4 {
-    font-size: 35px;
-    color: white;
-    padding-left: 1em;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
+img {
+  max-width: 100%;
+}
+
+footer {
+    color: white;
+    background-color: #6C757D;
+    height: 18vh;
+    font-size: 14px;
+} 
 a {
 	&:link {
 		text-decoration: none;
@@ -34,10 +45,36 @@ a {
 	}
 }
 
-footer {
-    color: white;
-    background-color: #6C757D;
-    height: 16vh;
-    font-size: 14px;
-} 
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
 
+  tr {
+    text-align: center;
+  }
+
+  th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+  }
+
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+  }
+}
+
+form {
+  justify-content: center;
+  justify-items: center;
+  font-size: 14px;
+  max-width: 20em;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  gap: 1em;
+  text-align: center;
+  border-radius: 10px;
+}

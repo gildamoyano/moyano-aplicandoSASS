@@ -1,0 +1,20 @@
+.título-contacto {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2em;
+    text-align: center;
+} 
+
+.form__button {
+    width: 6em;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 767px) {  
+    form {
+        font-size: 12px;
+    }
+} 

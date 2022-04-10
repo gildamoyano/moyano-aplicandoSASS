@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to left,#f4a261,#f1c0e8);
+    min-height: 100vh;
+}
+
+.estampa1:hover {
+    transform: scale(1.2);
+}
+
+.estampa2:hover {
+    @extend .estampa1:hover;
+}
+
+.estampa3:hover {
+    @extend .estampa1:hover;
+}
+
+.estampa4:hover {
+    @extend .estampa1:hover;
+}
+
+.galería {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1em;
+    margin-left: 4em;
+    margin-bottom: 4rem;
+}
+
+.fw-bold {
+    @include textoCentrado();
+    font-size: 20px;
+    padding: 1em;
+    margin-bottom: 2em;
+    color: map-get($paletaColores, blanco);
+}
+
+@media screen and (max-width:576px) {
+	.galería {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4,1fr);
+		padding: 1em;
+	}
+	.título {
+		font-size: 18px;
+	}
+	h4 {
+		font-size: 14px;
+	}
+}
